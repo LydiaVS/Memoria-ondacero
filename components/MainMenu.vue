@@ -10,7 +10,7 @@
           Marca
           <ul class="panel" v-show="panelIsOpen">
             <li class="invisibl" > <NuxtLink to="/elementos">Elementos Básicos </NuxtLink></li>
-            <li class="invisibl" ><NuxtLink to="/colores">Colores </NuxtLink></li>
+            <li class="invisibl" ><NuxtLink to="/colores2">Colores </NuxtLink></li>
             <li class="invisibl"><NuxtLink to="/tipo">Tipografía </NuxtLink></li>
             <li class="invisibl"><NuxtLink to="/animacion">Animación</NuxtLink></li>
           </ul>
@@ -20,17 +20,18 @@
             <li class="invisibl" > <NuxtLink to="/tipo2">Tipografía</NuxtLink></li>
             <li class="invisibl" > <NuxtLink to="/colores2">Paleta Colores</NuxtLink></li>
             <li class="invisibl"><NuxtLink to="/estilo">Estilo gráfico</NuxtLink></li>
+            <li class="invisibl"><NuxtLink to="/grid">Grid</NuxtLink></li>
 
           </ul>
         </li>
         <li @click="panelIs3Open = !panelIs3Open" class="visible">Componentes
           <ul class="panel" v-show="panelIs3Open">
-            <li class="invisibl" > <NuxtLink to="/moviles">Elementos móviles</NuxtLink></li>
-            <li class="invisibl" > <NuxtLink to="/cabecera">Cabecera</NuxtLink></li>
-            <li class="invisibl" > <NuxtLink to="/rotulos">Rótulos</NuxtLink></li>
-            <li class="invisibl" > <NuxtLink to="/cortinillas">Cortinillas</NuxtLink></li>
-            <li class="invisibl" > <NuxtLink to="/mosca">Mosca</NuxtLink></li>
-
+            <li class="invisibl" > <NuxtLink to="/moviles">Botones</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/mosca">Navegación</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/cabecera">Cards</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/rotulos">Reproductor</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/cortinillas">Alerts</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/cortinillas">Inputs</NuxtLink></li>
           </ul>
         </li>
       </ul>

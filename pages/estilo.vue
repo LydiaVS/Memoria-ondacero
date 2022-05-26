@@ -28,6 +28,7 @@
         font-family: 'Nunito', sans-serif
         font-size: 15pt
         font-weight: 600
+        @apply pt-8 pb-8
         
 
 </style>

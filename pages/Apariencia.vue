@@ -3,13 +3,12 @@
   <MainMenu/>
   <div class="caja">
     <h1>Apariencia de marca</h1>
-    <p>Telecinco es la Mami guay, una persona atareada, amable y familiar que protege y cuida a sus hijos y familia sin dejar de lado su carrera y tiempo libre.
-      <br>Se ha puesto al día con las redes sociales para no perderse nada de lo que pasa en el mundo además de estar conectada con las otras mamis guays, La Sexta y La Cuatro.
-      <br>La combinación de protección, amabilidad y diligencia de la mami guay hacen que tenga una visión original de hacer las cosas.</p>
-    <h2>Orginal</h2>
-    <img src="#" alt="">
-    <h2>Familiar</h2> 
-    <img src="#" alt=""> 
+    <p>OndaCero es el profe majo, una persona comprometida con sus oyentes, responsable con su profesión y comprensivo con todos. <br>
+Sabe lo que sus alumnos necesitan porque dialoga con ellos y los comprende  a la perfección.</p>
+    <h2>Comprometido</h2>
+    <img src="../assets/img/Comprometido.jpg" alt="">
+    <h2>Empático</h2> 
+    <img src="../assets/img/Empático.jpg" alt=""> 
   </div>
 </div>
   
@@ -25,5 +24,10 @@
     font-size: 20pt
     font-style: 600
     @apply pt-4 pb-4
+  p
+    font-family: 'Nunito', sans-serif
+    font-size: 12pt
+    font-weight: 300
+    @apply text-gray-500 pr-28 pb-3
     
 </style>
