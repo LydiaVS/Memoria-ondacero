@@ -26,7 +26,7 @@
         </li>
         <li @click="panelIs3Open = !panelIs3Open" class="visible">Componentes
           <ul class="panel" v-show="panelIs3Open">
-            <li class="invisibl" > <NuxtLink to="/moviles">Botones</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/botones">Botones</NuxtLink></li>
             <li class="invisibl" > <NuxtLink to="/mosca">Navegación</NuxtLink></li>
             <li class="invisibl" > <NuxtLink to="/cabecera">Cards</NuxtLink></li>
             <li class="invisibl" > <NuxtLink to="/rotulos">Reproductor</NuxtLink></li>
