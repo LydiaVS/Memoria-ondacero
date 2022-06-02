@@ -18,7 +18,7 @@
         <li @click="panelIs2Open = !panelIs2Open" class="visible" >Estilos identidad visual
           <ul class="panel" v-show="panelIs2Open">
             <li class="invisibl" > <NuxtLink to="/tipo2">Tipografía</NuxtLink></li>
-            <li class="invisibl" > <NuxtLink to="/colores2">Paleta Colores</NuxtLink></li>
+            <li class="invisibl" > <NuxtLink to="/color">Paleta Colores</NuxtLink></li>
             <li class="invisibl"><NuxtLink to="/estilo">Estilo gráfico</NuxtLink></li>
             <li class="invisibl"><NuxtLink to="/grid">Grid</NuxtLink></li>
 
